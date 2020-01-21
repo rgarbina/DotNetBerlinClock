@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Classes\BerlinClock_OCP.cs" />
     <None Include="packages.config" />
     <None Include="BDD\BerlinClockFeatureSteps.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
