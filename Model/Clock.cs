@@ -21,7 +21,10 @@ namespace BerlinClock.Model
         /// </summary>
         public int Hour
         {
-            get => _hour;
+            get
+            {
+                return _hour;
+            }
             set
             {
                 if ((value >= 0) && (value < 25))
@@ -36,7 +39,10 @@ namespace BerlinClock.Model
         /// </summary>
         public int Minute
         {
-            get => _minute;
+            get
+            {
+                return _minute;
+            }
             set
             {
                 if ((value >= 0) && (value < 60))
@@ -51,7 +57,10 @@ namespace BerlinClock.Model
         /// </summary>
         public int Second
         {
-            get => _second;
+            get
+            {
+                return _second;
+            }
             set
             {
                 if ((value >= 0) && (value < 60))
